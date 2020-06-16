@@ -1,5 +1,5 @@
 # 2020-06-16-ACircleAndTwoSquares
-Medium difficulty coding challenge
+Medium difficulty coding challenge from 
 https://edabit.com/challenge/NNhkGocuPMcryW7GP
 
 Description:
