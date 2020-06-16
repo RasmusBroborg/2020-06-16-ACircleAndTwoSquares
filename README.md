@@ -35,9 +35,10 @@ c = 2r
 a = x
 b = x
 
-Creating the equation (2r)^2 = x^2 + x^2 or (2r)^2 = 2 * (x^2) or ((2r)^2)/2 = x^2 
-
-As x^2 is the area of the square the equation is finished.
+Creating the equation:
+(2r)^2 = x^2 + x^2 -->
+(2r)^2 = 2 * (x^2) -->
+((2r)^2)/2 = x^2  /which is the area of the square.
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
