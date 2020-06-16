@@ -15,3 +15,35 @@ square_areas_difference(7) ➞ 98
 
 Notes
 Use only positive integer parameters.
+
+
+Solution: 
+
+The goal is to figure out the area of the square inside the circle (areaSquare). 
+
+The area of a rectangle is base * height, and as the rectangle is defined as a square both the base and height will be the same length. This length will be referred to as x. To calculate the area of the square we will take x * x, or x^2.
+
+Using pythagoras theorem the value for x can be known, as the hypotenuse of a right angled triangle inside the square is the radius of the circle times two (2 * radius).
+
+Pythagoras theorem
+c^2 = a^2 + b^2
+
+c = 2r
+a = x
+b = x
+
+Creating the equation (2r)^2 = x^2 + x^2 or (2r)^2 = 2 * (x^2) or ((2r)^2)/2 = x^2 
+
+As x^2 is the area of the square the equation is finished.
+
+
+Code:
+
+    def square_areas_difference(radius):
+      areaSquare = int(((2*radius)**2)/2)
+      return areaSquare
+
+    #testing of function:
+    print(square_areas_difference(5))
+    print(square_areas_difference(6))
+    print(square_areas_difference(7))
